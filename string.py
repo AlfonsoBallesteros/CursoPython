@@ -26,3 +26,8 @@ print(my_string.startswith('p'))
 print(my_string.split())
 #join -> parte el String en letras
 print(' * '.join(my_string))
+#slice (rebanadas)
+print(my_string[1:])
+print(my_string[1:3])
+print(my_string[0:6:2])
+print(my_string[::-1])
